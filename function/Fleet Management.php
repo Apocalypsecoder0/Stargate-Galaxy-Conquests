@@ -1,4 +1,5 @@
-function createFleet($userId, $shipType, $quantity) {
+<?php
+>function createFleet($userId, $shipType, $quantity) {
     // Connect to database
     $db = new PDO('mysql:host=localhost;dbname=your_db', 'username', 'password');
 
@@ -34,3 +35,4 @@ function getShipCost($shipType, $quantity) {
         'crystal' => $cost['crystal'] * $quantity
     ];
 }
+</php>
