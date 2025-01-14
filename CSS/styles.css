@@ -1,27 +1,15 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
 
-/* Header styles */
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-}
-
-header h1 {
-    margin-bottom: 10px;
 }
 
 nav ul {
@@ -35,61 +23,46 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Main content styles */
 main {
     padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+section {
     margin-bottom: 20px;
-}
-
-/* Form styles */
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form input[type="text"],
-form input[type="password"],
-form input[type="email"],
-form button {
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
+    padding: 15px;
+    background: #fff;
     border-radius: 5px;
 }
 
-form button {
-    background: #35424a;
-    color: #ffffff;
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background: #5cb85c;
+    color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-form button:hover {
-    background: #4a5d6c;
+button:hover {
+    background: #4cae4c;
 }
 
-/* Footer styles */
 footer {
     text-align: center;
-    padding: 20px 0;
-    background: #35424a;
-    color: #ffffff;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
     position: relative;
     bottom: 0;
     width: 100%;
