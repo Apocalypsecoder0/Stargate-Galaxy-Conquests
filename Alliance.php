@@ -1,6 +1,6 @@
 <?php
 // Alliance.php
-
+include 'config.php';
 // Database connection
 $servername = "localhost";
 $username = "username";
