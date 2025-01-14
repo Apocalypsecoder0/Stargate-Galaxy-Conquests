@@ -1,3 +1,4 @@
+<?php>
 function constructBuilding($userId, $buildingType) {
     // Connect to database
     $db = new PDO('mysql:host=localhost;dbname=your_db', 'username', 'password');
@@ -30,3 +31,4 @@ function getBuildingCost($buildingType) {
 
     return $buildingCosts[$buildingType] ?? null;
 }
+</php>
