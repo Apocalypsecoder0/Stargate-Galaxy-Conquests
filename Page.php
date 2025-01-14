@@ -30,7 +30,7 @@ $content = isset($pages[$page_id]) ? $pages[$page_id] : $pages['home'];
         <?php echo $content; ?>
     </main>
     <footer>
-        <p>&copy; 2023 Our Company</p>
+        <p>&copy; 2025 Our Company</p>
     </footer>
 </body>
 </html>
